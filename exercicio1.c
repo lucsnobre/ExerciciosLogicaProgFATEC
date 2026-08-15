@@ -11,8 +11,9 @@ int main (void)
     
     if (num % 2 == 0) {
         printf("%d é par \n" , num);
-    }else {
-        printf("%d é ímpar\n", num);
+    }
+    if (num % 2 != 0) {
+        printf("%d é ímpar \n", num);
     }
     
     return 0;
