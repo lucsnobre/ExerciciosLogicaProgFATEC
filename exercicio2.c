@@ -15,4 +15,5 @@ int main( void )
     if ( idade < 18 ) {
         printf( "Você é menor de idade\n" );
     }
+}
 
