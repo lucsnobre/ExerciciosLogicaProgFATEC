@@ -1,0 +1,16 @@
+/* ex10 - faixa de valoress de 10 a 20*/
+#include <stdio.h>
+
+int main( void )
+{
+    int num; 
+
+    printf( "Digite um número inteiro: " );
+    scanf( "%d", &num );
+
+    if ( num >= 10 && num <= 20 ) {
+        printf( "Valor aceito\n" );
+    }
+
+    return 0;
+}
